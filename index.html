@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>The New Boston</title>
+        <meta name="viewpport" content="width=device-width,intial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!--<nav class="navbar navbar-inverse">  #( the normal nav bar with drop down list without the hamburger icon which control nav for mobs )
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#"  class="navbar-brand">TheNewBoston</a>
+                </div>
+                <div class="">
+                    <ul class="nav navbar-nav">
+                        <li class="active"> <a href="#"> Home </a> </li>
+                        <li > <a href="#"> about </a> </li>
+                        <li > <a href="#"> contact </a> </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> My profile <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> Friend </a></li>
+                                <li><a href="#"> Photo </a></li>
+                                <li><a href="#"> Setings </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"> Logout </a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav> -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                        <span class=" glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="color:white"></span>﻿
+                    </button>
+                    <a href="#"  class="navbar-brand">TheNewBoston</a>
+                </div>
+                <div class="collapse navbar-collapse" id="mainNavBar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"> <a href="#"> Home </a> </li>
+                        <li > <a href="#"> about </a> </li>
+                        <li > <a href="#"> contact </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h2>Wells </h2>
+            <div class="well">
+                basic well
+            </div>
+            <div class="well well-sm">
+                basic well
+            </div>
+            <div class="alert alert-success">
+                you filled it correctly and won the game
+            </div>
+            <div class="alert alert-info">
+            <a href="#"class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                Don't forget Kelly's BD !
+            </div>
+            <div class="alert alert-danger fade in" >
+            <a href="#"class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                are you sure !
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="container-fluid">
+            <h1>3column layout</h1>
+            <div class="row">
+                <div class="col-md-4" style="background-color:#ff9999">Left</div>
+                <div class="col-md-4" style="background-color:#ff9959">Middle</div>
+                <div class="col-md-4" style="background-color:#ff9919">Right</div>
+            </div>
+            <br>
+            <p>You can highlite <mark> text using marktag </mark> </p>
+            <blockquote cite="http://">
+                <p>Some time I wet the bed, on purpose</p>
+                <footer>Bucky's Grandba</footer>
+            </blockquote>
+            <h4>Things to do when u r bored</h4>
+            <dl class="">
+                <dt>Indoors</dt>
+                    <dd>-take a nap</dd>
+                    <dd>-watch Netflix</dd>
+                    <dd>-eat apopcorn</dd>
+                <dt>outdoor</dt>
+                    <dd>-sleep </dd>
+                    <dd>-go to a movie</dd>
+                    <dd>-eat apopcorn</dd>
+            </dl>
+            <p>to set a person wight use <code>setUserWeight(347)</code> with an integer</p>
+            <p>for multi line code use pre tags</p>
+            <pre>
+            for n in range (101):
+                if n %4 is 0:
+                    print(n)
+
+            </pre>
+            <!-- Large button group -->
+
+            <p>this is keyboard input <kbd>Crtl+Alt+Enter</kbd> </p>
+
+            <h4>Built in color classes</h4>
+            <p class="text-muted">Text muted</p>
+            <p class="text-success">congrats us filled the form correctly </p>
+            <p class="text-danger">watchout the danger</p>
+            <p class="bg-success">congrats us filled the form correctly </p>
+            <p class="bg-danger">watchout the danger</p>
+
+            <div class="container">
+                <h2>Simple table</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bucky Roberts</td>
+                            <td>47</td>
+                            <td>8760</td>
+                        </tr>
+                            <td>Turd</td>
+                            <td>13</td>
+                            <td>5</td>
+                        </tr>
+                            <td>Mostafa</td>
+                            <td>30</td>
+                            <td>5000</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Condenced table</h2>
+                <table class="table table-condenced">
+                    <thead>
+                        <tr class="success">
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="success">
+                            <td>abdo Roberts</td>
+                            <td>47</td>
+                            <td>8760</td>
+                        </tr class="success">
+                            <td>sara</td>
+                            <td>13</td>
+                            <td>5</td>
+                        </tr>
+                            <td>Gafer</td>
+                            <td>30</td>
+                            <td>5000</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Hover table</h2>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bucky Roberts</td>
+                            <td>47</td>
+                            <td>8760</td>
+                        </tr>
+                            <td>Turd</td>
+                            <td>13</td>
+                            <td>5</td>
+                        </tr>
+                            <td>Mostafa</td>
+                            <td>30</td>
+                            <td>5000</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!--<div class="container">
+                    <img src="images/DSC_0087.jpg" class = "img-rounded" width="200" height="230" >
+                    <img src="images/DSC_0100.jpg" class = "img-circle" width="230" height="230" >
+                </div>
+                <div class="container">
+                    <img src="images/DSC_0087.jpg" class = "img-responsive" width="500" height="500">
+                    <img src="images/DSC_0087.jpg" width="500" height="500">
+                </div> -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item "src="http://www.youtube.com/embed/ClHu3XQBnGU&index=5&list=PL6gx4Cwl9DGBPw1sFodruZUPheWVKchlM"></iframe>
+
+                </div>
+
+
+
+            </div>
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    mkmkmkmkms ksmfk klmsdefk Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+
+        </div>
+
+
+
+    </body>
+</html>
